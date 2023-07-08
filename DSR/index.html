@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recruitment Solution App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="pop-up login.css" />
+    <link rel="stylesheet" href="pop-up login.js" />
+    <link rel="stylesheet" href="register.css" />
+    <link rel="stylesheet" href="register.js" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="search.html" target="_blank">Jobs</a></li>
+          <li><a href="#">Companies</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+
+          <li><button id="login-btn">login</button></li>
+          <li><a href="register.html" class="button-link">New user</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Welcome to our Digital Recruitment Solution</h1>
+        <p>Find your dream job at top MNCs.</p>
+        <a href="#" class="cta-button">Get Started</a>
+      </section>
+
+      <section class="job-listings">
+        <h2>Latest Job Openings</h2>
+        <div class="job-card">
+          <h3>Job Title 1</h3>
+          <p>Company: Company A</p>
+          <p>Location: City, Country</p>
+          <a href="#" class="apply-button">Apply Now</a>
+        </div>
+
+        <div class="job-card">
+          <h3>Job Title 2</h3>
+          <p>Company: Company B</p>
+          <p>Location: City, Country</p>
+          <a href="#" class="apply-button">Apply Now</a>
+        </div>
+
+        <!-- Add more job cards here -->
+      </section>
+
+      <!---Pop-up login Page -->
+      <div id="login-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Login</h2>
+          <form>
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Enter your username"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+                required
+              />
+            </div>
+            <button type="submit" class="login-button">Log In</button>
+            <p>
+              Are you New user?<a href="register.html" class="button-link"
+                >Register</a
+              >
+            </p>
+          </form>
+        </div>
+      </div>
+
+      <script src="pop-up login.js"></script>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Recruitment Solution App. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

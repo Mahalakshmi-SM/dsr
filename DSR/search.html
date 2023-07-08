@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Candidate Search</title>
+    <link rel="stylesheet" href="search.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Candidate Search</h1>
+    </header>
+
+    <main>
+      <section class="search-section">
+        <h2>Search Candidates</h2>
+        <div class="search-form">
+          <div class="form-group">
+            <label for="location">Location</label>
+            <input
+              type="text"
+              id="location"
+              name="location"
+              placeholder="Enter location"
+            />
+          </div>
+          <div class="form-group">
+            <label for="job-role">Job Role</label>
+            <input
+              type="text"
+              id="job-role"
+              name="job-role"
+              placeholder="Enter job role"
+            />
+          </div>
+          <button type="button" class="search-button">Search</button>
+        </div>
+      </section>
+
+      <section class="candidates-section">
+        <h2>Fetched Candidates</h2>
+        <div class="candidate-list">
+          <!-- Fetched candidates will be dynamically added here -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Candidate Search. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  height: 25px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url("job2.png");
+  background-size: cover;
+  background-position: center;
+  color: #27083d;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.button-link {
+  padding: 5px 10px;
+  background-color: darkslateblue;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cta-button {
+  background-color: #ff5722;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #e64a19;
+}
+
+/* Job Listings Section Styles */
+.job-listings {
+  padding: 20px;
+}
+
+.job-listings h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.job-card {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.job-card h3 {
+  font-size: 20px;
+}
+
+.apply-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.apply-button:hover {
+  background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
